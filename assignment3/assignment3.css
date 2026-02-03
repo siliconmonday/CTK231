@@ -1,0 +1,34 @@
+#redheader {
+    background-color: red;
+    color: white;
+}   
+
+.subheader {
+    background-color: lightgray;
+    color: red;
+}   
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: gold;
+}        
+
+#navbar {
+    background-color: lightgray;
+}
+
+#divinfo {
+    color: white;
+  background-color: black;
+}
+
+.spanhighlight {
+    color: red;
+}   
