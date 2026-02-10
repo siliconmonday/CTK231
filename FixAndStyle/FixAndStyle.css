@@ -1,0 +1,48 @@
+.bluebackground {
+  background-color: cornflowerblue;
+}       
+
+.whitetext {
+  color: white;
+}   
+
+.bluetext {
+  color: blue;
+  
+}       
+
+.orangetext {
+  color: orange;
+}   
+
+.yellowbackground {
+  background-color: yellow;
+}       
+
+.redtext {
+  color: red;
+}   
+
+.darkgreentext {
+    color: yellow;
+  background-color: darkgreen;
+}   
+
+.lightgreen {
+  background-color: lightgreen;
+}   
+
+a {
+  color: green;
+}
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+  text-decoration: underline;   
+}        
