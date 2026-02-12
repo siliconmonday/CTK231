@@ -1,0 +1,71 @@
+body {
+    background-image: url('backrooms-wallpaper.jpg');
+}
+
+.imgbox {
+    border: 10px solid #000000;
+    padding: 30px 30px 30px 30px;
+    margin: 20px 20px 20px 20px;
+    background-color: #f7ff14;
+}
+
+.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.stupidheading {
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+}
+
+#redheader {
+    background-color: red;
+    color: white;
+}   
+
+.subheader {
+    background-color: lightgray;
+    color: red;
+}   
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: gold;
+}        
+
+#navbar {
+    background-color: lightgray;
+}
+
+#divinfo {
+    color: white;
+  background-color: black;
+}
+
+.spanhighlight {
+    color: red;
+}   
