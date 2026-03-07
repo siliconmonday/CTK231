@@ -1,0 +1,164 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 1200px;
+  border: 5px solid blue;
+  background-color: white;  
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  border: 5px solid blue;
+}
+
+header h1 {
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  padding: 0;
+  color: blue;
+  border-bottom: 3px solid blue;
+  padding-bottom: 5px;
+}   
+
+aside h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+header {
+  grid-column: span 9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: lightblue(0, 0, 0);
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  a {
+    color: lightskyblue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+nav {
+  grid-column: span 9;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+  width: 25%;
+  margin-right: 3px;
+  border-right: 3px solid blue;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+  text-decoration: none;   
+}
+
+.active {
+    color: white;
+}
+    
+main {
+  grid-column: span 6;
+  padding: 10px;
+}
+
+.floatleft {
+  float: left;
+  max-width: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+ }  
+
+.floatright {
+  float: right;
+  max-width: 300px;
+  padding-right: 10px;
+  padding-left: 10px;
+ }  
+
+ .clearfloat {
+  clear: both;
+}
+
+main a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+main a:hover {;
+  text-decoration: underline;
+}
+
+aside a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+main a:hover {;
+  text-decoration: underline;
+}
+
+.sidebar {
+  grid-column: span 3;
+  background-color: lightskyblue;
+  padding: 10px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.column {
+  grid-column: span 3;
+  padding: 10px;
+  color: black;
+  text-align: justify;
+}
+
+.columnimg {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+  grid-column: span 9;
+  border-top: 5px solid blue;
+}
