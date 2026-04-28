@@ -88,6 +88,12 @@ main {
     padding-bottom: 24px;
   }
 
+  .headshot {
+    width: 30%;
+    translate: 0px -12px;
+    transform: scale(1.1) ;
+  }
+
   .navbaricon img {
     width: 14px;
     transform: scale(1.75);
@@ -139,6 +145,10 @@ h1 {
   text-align: right;
 }
 
+.aligncenter {
+  text-align: center;
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -151,4 +161,46 @@ footer {
   img{
     width: 400px;
   }
+}
+
+input {
+  background-color: rgba(73, 73, 73, 0.59);
+  color: white;
+  width: 500px;
+  height: 20px;
+  font-family: "Lakki Reddy", serif;
+  font-size: 20px;
+ padding-top: 10px;
+ margin-bottom: 12px;
+  font-style: normal;
+}
+
+textarea {
+  background-color: rgba(73, 73, 73, 0.59);
+  color: white;
+  width: 500px;
+  height: 20px;
+  font-family: "Lakki Reddy", serif;
+  font-size: 20px;
+ padding-top: 10px;
+  font-style: normal;
+}
+
+.big
+  {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 24px;
+  }
+
+  #myCarousel {
+max-height: 450px;
+padding-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  width: 500px;
+  background: #00000000;
 }
