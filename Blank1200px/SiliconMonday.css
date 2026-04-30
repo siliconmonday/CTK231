@@ -92,6 +92,7 @@ main {
     width: 30%;
     translate: 0px -12px;
     transform: scale(1.1) ;
+    margin-left: -58px;
   }
 
   .navbaricon img {
@@ -179,18 +180,24 @@ textarea {
   background-color: rgba(73, 73, 73, 0.59);
   color: white;
   width: 500px;
-  height: 20px;
+  height: auto;
   font-family: "Lakki Reddy", serif;
   font-size: 20px;
  padding-top: 10px;
   font-style: normal;
+  resize: none;
 }
 
 .big
   {
     width: 500px;
-    height: 100px;
+    height: 200px;
     margin-bottom: 24px;
+  }
+
+.bromove
+  {
+    translate: 0px -35px;
   }
 
   #myCarousel {
@@ -203,4 +210,29 @@ padding-bottom: 24px;
   padding: 24px;
   width: 500px;
   background: #00000000;
+}
+
+.contactpage main {
+  max-height: 900px;
+}
+
+.submitbutton {
+  margin-left: 540px;
+  margin-top: -15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 24px;
+  font-family: Griffy, system-ui;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submitbutton:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
