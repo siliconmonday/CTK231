@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Music | Silicon Monday</title>
+	<link href="SiliconMonday.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css" />
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Griffy&amp;family=Lakki+Reddy&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.css" />
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/carousel/carousel.arrows.umd.js"></script> 
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+		<img src="wordmark.png" alt="Silicon Monday Wordmark" id="wordmark">
+		</header>
+
+<nav>
+  <ul><li><a class="navbaricon homeicon hover" href="Homepage.html"><img src="icon-black.png" alt="Silicon Monday logo"></a></li><li><a class="navbaricon" href="About.html"> <img src="about-black.png" alt=""></i></a></li><li><a class="navbaricon active" href="Music.html"><i class="bi bi-music-note-beamed"></i></a></li><li><a class="navbaricon" href="Contact.html"><i class="bi bi-envelope"></i></a></li>
+  </ul>
+  </nav>
+
+  <main>
+<div class="f-carousel" id="myCarousel" >
+    <div class="f-carousel__slide">
+		<div class="popup">
+			<p>METAM</p>
+			<p><a href="https://open.spotify.com/album/2N2joOQi7cEvTntVNvJd8S?si=8kP2pjl1Q0SwNUt-1nGEaw" target="_blank"><i class="bi bi-spotify"></i></a> <a href="https://music.apple.com/us/album/metam/1865335361" target="_blank"><i class="bi bi-apple-music"></i></a> <a href="https://music.youtube.com/playlist?list=OLAK5uy_lesf73iYp-niBAzcYI4r-4jfBnBRSnd5M&si=aEUrLxjbscRuK0b4" target="_blank"><i class="bi bi-youtube"></i></a></p>
+		</div>
+		<img src="metam-thumb.jpg" alt="METAM album cover art.">
+	</div>
+    <div class="f-carousel__slide">
+		<div class="popup">
+			<p>The Chauffeur</p>
+			<p><a href="https://open.spotify.com/album/1zalMxd0s39i0LowDng94y?si=3TnRJ0s8SCi_xX7_Xa066A" target="_blank"><i class="bi bi-spotify"></i></a> <a href="https://music.apple.com/us/album/the-chauffeur-single/1879097323" target="_blank"><i class="bi bi-apple-music"></i></a> <a href="https://music.youtube.com/playlist?list=OLAK5uy_l4Og9Z2XAshP7Rzm3v6IR1nDi6IujQRTc&si=qhktZ2NExbWNQ55R" target="_blank"><i class="bi bi-youtube"></i></a></p>
+		</div>
+		<img src="chauffeur-thumb.jpg" alt="The Chauffeur single cover art.">
+	</div>
+    <div class="f-carousel__slide bromove">
+		<div>
+			
+		</div>
+		<img src="stopthef-thumb.png" alt="Stop the F original game soundtrack cover art. Coming soon!">
+	</div>
+</div>
+	<footer>
+		<img src="copyright.png" alt="Copyright 2026 Silicon Monday">
+	</footer>
+
+
+<script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    Carousel(container, options, { Arrows }).init();
+</script>
+
+</body>
+</html>

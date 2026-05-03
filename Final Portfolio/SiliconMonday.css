@@ -1,0 +1,267 @@
+body {
+  background-image: url(tiles.gif);
+  background-repeat: repeat;
+  background-size: 180px;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  max-height: 700px;
+  color: white;
+ 
+  background-color: #000000ea;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  color: white;
+  padding-left: 24px;
+  img {
+    width: 1150px;
+  }
+}
+
+nav {
+  grid-column: span 12;
+  font-size: 18px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}   
+
+nav li {
+    display: inline-block;
+    width: 25%;
+}
+
+nav li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+nav li a:hover {
+    background-color: rgba(255, 255, 255, 0.833);
+}
+
+nav li a.active {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+nav li a.active:hover {
+    background-color: rgba(0, 0, 0, 0.343);
+}
+
+
+
+main {
+  grid-column: span 12;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+
+.portrait {
+    width: 36%;
+    padding-left: 12px;
+  }
+
+  .mainimg {
+    width: 30%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
+
+  .headshot {
+    width: 30%;
+    translate: 0px -12px;
+    transform: scale(1.1) ;
+    margin-left: -58px;
+  }
+
+  .navbaricon img {
+    width: 14px;
+    transform: scale(1.75);
+  }
+
+
+  .homeicon.active:hover img {
+    content: url(hover-white.png);
+}
+
+.homeicon:hover img {
+    content: url(hover-black.png);
+}
+
+
+.floatright {
+  float: right;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.attribution {
+  font-size: 24px;
+}
+
+.bodytext {
+  font-size: 20px;
+}
+
+.griffy-regular {
+  font-family: "Griffy", system-ui;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  font-style: normal;
+}
+
+.lakki-reddy-regular {
+  font-family: "Lakki Reddy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000e7;
+  margin: -10px;
+  padding: 24px;
+  text-align: left;
+  img{
+    width: 400px;
+  }
+}
+
+input {
+  background-color: rgba(73, 73, 73, 0.59);
+  color: white;
+  width: 500px;
+  height: 20px;
+  font-family: "Lakki Reddy", serif;
+  font-size: 20px;
+ padding-top: 10px;
+ margin-bottom: 12px;
+  font-style: normal;
+}
+
+textarea {
+  background-color: rgba(73, 73, 73, 0.59);
+  color: white;
+  width: 500px;
+  height: auto;
+  font-family: "Lakki Reddy", serif;
+  font-size: 20px;
+ padding-top: 10px;
+  font-style: normal;
+  resize: none;
+}
+
+.big
+  {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 24px;
+  }
+
+.bromove
+  {
+    translate: 0px -35px;
+  }
+
+  #myCarousel {
+max-height: 450px;
+padding-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  width: 500px;
+  background: #00000000;
+}
+
+.contactpage main {
+  max-height: 900px;
+}
+
+.submitbutton {
+  margin-left: 14px;
+  margin-top: -15px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 24px;
+  font-family: Griffy, system-ui;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submitbutton:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* popup styles */
+.popup {
+  position: absolute;
+  padding-top: 130px;
+  margin-left: 26px;
+  letter-spacing: 2px;
+  width: 80%;
+  height: 89%;
+  font-size: 50px;
+  line-height: 0px;
+  font-family: Griffy, system-ui;
+  color: rgb(255, 255, 255);
+  background-color: #000000df;
+  display: none;
+  a {
+    color: white;
+    letter-spacing: 20px;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: none;
+  }
+}
+
+.f-carousel__slide:hover .popup {
+  display: block;
+}
