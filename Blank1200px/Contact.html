@@ -24,21 +24,16 @@
   <main>
 	<h1 class="griffy-regular aligncenter">Contact</h1>
 	
-	<form class="aligncenter">
-  <input type='text' placeholder='yourname@example.com' />
-<br>
-
-
-  <input type='text' placeholder='Subject' />
-
-<br>
-
-  <textarea class="big" type='text' placeholder='Write your message here...' /></textarea>
+<form class="aligncenter"
+  action="https://formspree.io/f/xeenqgzn"
+  method="POST"
+>
+    <input type="email" name="email" placeholder="yourname@example.com"><br>
+	<input type="text" name="subject" placeholder="Subject"><br>
+    <textarea class="big" name="message" placeholder="Write your message here..."></textarea><br>
+<button class="submitbutton" type="submit">Send</button>
 </form>
 
-<button class="submitbutton">Send</button>
-
-   
 	</div>
 
 	<footer>

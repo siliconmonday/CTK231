@@ -10,7 +10,7 @@ body {
   max-height: 700px;
   color: white;
  
-  background-color: #000000e7;
+  background-color: #000000ea;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -129,6 +129,7 @@ h1 {
 .griffy-regular {
   font-family: "Griffy", system-ui;
   font-weight: 400;
+  letter-spacing: 1.25px;
   font-style: normal;
 }
 
@@ -217,7 +218,7 @@ padding-bottom: 24px;
 }
 
 .submitbutton {
-  margin-left: 540px;
+  margin-left: 14px;
   margin-top: -15px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -235,4 +236,32 @@ padding-bottom: 24px;
 .submitbutton:hover {
   background-color: rgb(0, 0, 0);
   color: white;
+}
+
+/* popup styles */
+.popup {
+  position: absolute;
+  padding-top: 130px;
+  margin-left: 26px;
+  letter-spacing: 2px;
+  width: 80%;
+  height: 89%;
+  font-size: 50px;
+  line-height: 0px;
+  font-family: Griffy, system-ui;
+  color: rgb(255, 255, 255);
+  background-color: #000000df;
+  display: none;
+  a {
+    color: white;
+    letter-spacing: 20px;
+  }
+  a:hover {
+    color: rgba(255, 255, 255, 0.568);
+    text-decoration: none;
+  }
+}
+
+.f-carousel__slide:hover .popup {
+  display: block;
 }
